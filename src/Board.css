@@ -1,3 +1,20 @@
+/* Board.css */
 .Board {
   margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.Board tr {
+  border: none;
+}
+
+.Board td {
+  border: 2px solid #333;
+}
+
+.winner {
+  text-align: center;
+  font-size: 24px;
+  color: green;
+  margin: 20px 0;
 }
